@@ -1,0 +1,45 @@
+:root{
+    --bg-blur: #93B5C9;
+    --bg-wine: #AB2849;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.bloque-superior-rojo{
+    background-color: var(--bg-blur);
+    width: 100%; 
+    height: 240px; 
+    margin: auto ; 
+}
+
+.bloque-superior {
+    background-color: var(--bg-blur);
+    width: 100%; 
+    height: 130px; 
+    margin: auto ; 
+}
+
+.bloque-rojo {
+    background-color: var(--bg-wine);
+}
+
+.bloque-medio{
+    position: relative;   /* Para permitir el uso de 'left' */
+    width: 80%;           /* Ajusta el ancho según sea necesario */
+    height: 100px;        /* Ajusta la altura según sea necesario */
+    left: 20%;            /* Mueve el bloque al centro */
+    margin: 20px 0;       /* Espacio entre los bloques */
+}
+
+.bloque-bajo {
+    width: 96%; 
+    height: 80px; 
+    margin: 0 auto;
+}
+
+
+
