@@ -9,33 +9,39 @@ body {
     background-color: white;
 }
 
-.bloque-superior-rojo{
-    background-color: var(--bg-blur);
-    width: 100%; 
-    height: 240px; 
-    margin: auto ; 
-}
-
 .bloque-superior {
     background-color: var(--bg-blur);
     width: 100%; 
-    height: 130px; 
+    height: 110px; 
     margin: auto ; 
+}
+
+.bloque-superior-rojo{
+    width: 100%; 
+    height: 230px;
+    margin-bottom: -10px;
+
 }
 
 .bloque-rojo {
     background-color: var(--bg-wine);
 }
 
+.contenedor{
+    float: right;
+    width: 100%;
+    margin: 10px auto;
+}
+
 .bloque-medio {
     width: 80%;           
-    height: 100px;                    
+    height: 105px;                    
     margin: 20px 0;      
 }
 
 .bloque-bajo {
     width: 96%; 
     height: 80px; 
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
