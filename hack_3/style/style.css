@@ -1,0 +1,63 @@
+:root{
+    --bg-blur: #93B5C9;
+    --bg-wine: #AB2849;    
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.bloque-superior {
+    background-color: var(--bg-blur);
+    width: 100%; 
+    height: 120px; 
+    margin: auto ; 
+}
+
+.bloque-superior-rojo{
+    width: 100%; 
+    height: 220px; 
+    margin-bottom: 20px;
+}
+
+.bloque-rojo {
+    background-color: var(--bg-wine);
+}
+
+.bloque-medio{
+    width: 80%;
+    height: 110px;
+    margin: 10px auto;
+}
+
+
+.bloque-div-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    margin: auto; 
+}
+
+.bloque{
+    width: 50%;
+    height: 100px;
+    margin: 10px 3px;
+}
+
+.bloque-div-inferior{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%; 
+    margin: auto;
+}
+
+.bloque-bajo{
+    width: 100%; 
+    height: 80px;
+    margin-top: 10px;
+}
+
